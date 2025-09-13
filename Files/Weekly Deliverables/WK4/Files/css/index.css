@@ -95,6 +95,7 @@ h3 {
 .contact-info li {
     margin-bottom: 10px;
     padding: 5px;
+    list-style-type: none;
 }
 
 .contact-info a {
@@ -148,4 +149,5 @@ h3 {
 
 .form-button:hover {
     background-color: #2ba7e1;
+
 }
