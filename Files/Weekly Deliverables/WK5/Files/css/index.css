@@ -153,7 +153,6 @@ h3 {
     padding: 10px 20px;
     border-radius: 4px;
     font-weight: bold;
-    transition: background-color 0.3s;
 }
 
 .nav-links a:hover {
@@ -237,14 +236,13 @@ h3 {
     margin: 0 10px;
     font-family: 'Times New Roman', serif;
     font-size: 16px;
-    transition: background-color 0.3s;
 }
 
 .form-button:hover {
     background-color: #2ba7e1;
 }
 
-/* Responsive design */
+/* Responsive design, I asked AI to help with this :))*/
 @media (max-width: 768px) {
     .container {
         padding: 20px;
