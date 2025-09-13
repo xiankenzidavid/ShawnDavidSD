@@ -1,0 +1,273 @@
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E8F9FF;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-container {
+    margin-right: 30px;
+    flex-shrink: 0;
+}
+
+.profile-container img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid #3396D3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+#heading {
+    color: #3396D3;
+    font-size: 32px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #C4D9FF;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #2ba7e1;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+h3 {
+    color: #2ba7e1;
+    margin-bottom: 20px;
+    font-size: 22px;
+    border-bottom: 2px solid #C4D9FF;
+    padding-bottom: 8px;
+}
+
+.institution, .university {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+.description {
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.divider {
+    height: 2px;
+    background-color: #C4D9FF;
+    margin: 25px 0;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.education-container, .skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.education-column, .skills-column {
+    flex: 1;
+}
+
+.education-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: rgba(240, 248, 255, 0.7);
+    border-left: 3px solid #3396D3;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.skill-item {
+    margin-bottom: 15px;
+    padding: 12px 15px;
+    background-color: rgba(240, 248, 255, 0.7);
+    border-left: 3px solid #3396D3;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.skill-name {
+    font-weight: bold;
+    flex: 1;
+}
+
+.skill-stars {
+    margin-left: 15px;
+}
+
+.activity-item, .research-item {
+    padding: 15px;
+    background-color: rgba(240, 248, 255, 0.7);
+    border-left: 3px solid #3396D3;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.research-item ul {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.research-item li {
+    margin-bottom: 8px;
+}
+
+.nav-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav-links a {
+    display: inline-block;
+    color: white;
+    background-color: #3396D3;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #2ba7e1;
+}
+
+/* Contact page styles */
+.contact-info {
+    margin-top: 15px;
+}
+
+.contact-item {
+    margin-bottom: 12px;
+    padding: 8px 0;
+    border-bottom: 1px dashed #C4D9FF;
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+
+.contact-info a {
+    color: #2ba7e1;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+    color: #1c87c9;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    color: #2ba7e1;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.form-input {
+    padding: 10px;
+    border: 1px solid #C4D9FF;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+.form-textarea {
+    padding: 10px;
+    border: 1px solid #C4D9FF;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', serif;
+    resize: vertical;
+    font-size: 15px;
+}
+
+.form-buttons {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.form-button {
+    background-color: #3396D3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 10px;
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.form-button:hover {
+    background-color: #2ba7e1;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin: 10px;
+    }
+    
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .profile-container {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .education-container, .skills-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .nav-links a {
+        display: block;
+        margin: 10px 0;
+    }
+}
